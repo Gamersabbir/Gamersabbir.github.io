@@ -102,6 +102,17 @@ const apps = [
         screen: () => {},
     },
     {
+        id: "tiktok",
+        title: "TikTok",
+        icon: './themes/Yaru/apps/tiktok.svg',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        isExternalApp: true,
+        url: "https://www.tiktok.com/@sabbirtop111",
+        screen: () => {},
+    },
+    {
         id: "tars",
         title: "Ask Tars",
         icon: './themes/Yaru/apps/tars.svg',

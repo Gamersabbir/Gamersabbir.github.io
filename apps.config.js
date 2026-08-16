@@ -113,6 +113,22 @@ const apps = [
         screen: () => {},
     },
     {
+        id: "facebook",
+        title: "Facebook",
+        icon: './themes/Yaru/apps/facebook.svg',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        isExternalApp: true,
+        url: "https://www.facebook.com/sabbirtop111",
+        screen: () => {},
+    },
+
+        
+
+
+    
+    {
         id: "tars",
         title: "Ask Tars",
         icon: './themes/Yaru/apps/tars.svg',
